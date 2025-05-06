@@ -1,0 +1,10 @@
+package in.SathyaIT.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(name="04_WELCOMEAPI")
+public interface WelcomeFeignClient {
+@GetMapping("/welcome")
+	public String getWelcomeMessage();
+}

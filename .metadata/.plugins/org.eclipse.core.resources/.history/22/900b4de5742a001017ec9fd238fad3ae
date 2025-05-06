@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: 05_GreetAPI_Service
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+#Configure actuator end point
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 9091
+  

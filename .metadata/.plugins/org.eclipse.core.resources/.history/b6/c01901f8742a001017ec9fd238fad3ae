@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 04_WelcomeAPI
+    #Making REST API as client to the Admin server
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+#Managing actuators
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+server:
+  port: 8081

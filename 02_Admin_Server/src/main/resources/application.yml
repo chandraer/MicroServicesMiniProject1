@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: 02_Service_Registry
+
+    
+server:
+  port: 1111

@@ -1,0 +1,5 @@
+package in.SathyaIT.controller;
+
+public class WelcomeRestController {
+
+}

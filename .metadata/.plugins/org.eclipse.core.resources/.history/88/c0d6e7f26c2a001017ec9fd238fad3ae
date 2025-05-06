@@ -1,0 +1,5 @@
+package in.SathyaIT.client;
+
+public class WelcomeFeignClient {
+
+}
