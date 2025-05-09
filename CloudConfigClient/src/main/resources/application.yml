@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: GreetAPI-Service
+
+  config:
+    import: optional:configserver:http://localhost:9093
+server:
+  port: 8082
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh #end point
